@@ -1,0 +1,71 @@
+.list-container
+{
+    width: 30vw;
+    height: 51vh;
+    border: 1px solid;
+    .list-header
+    {
+        background-color: #c3bfbf;
+        .list-label
+        {
+            font-size: 20px;
+            font-weight: 600;
+        }
+    }
+    .list-add-row
+    {
+        border-bottom: 1px solid #c3bfbf;
+        input 
+        {
+            border: none !important;
+            &:focus, &:focus-visible
+            {
+                outline: none;
+            }
+        }
+        .error-label
+        {
+            font-size: 12px;
+            color: red;
+            padding: 0px 4px;
+        }
+    }
+    .list-item-row
+    {
+        border-bottom: 1px solid #c3bfbf;
+        .name-details
+        {
+            .frnd-name
+            {
+                font-size: 18px;
+                font-weight: 600;
+            }
+            .frnd-label
+            {
+                font-size: 16px;
+                color: lightslategray;
+            }
+        }
+        .favorite-btn, .delete-btn
+        {
+            cursor: pointer;
+            &:hover
+            {
+                background-color: rgba(0,0,0,0.3);
+            }
+        }
+    }
+    .pagination-row
+    {
+        .page-btn
+        {
+            border: 1px solid lightblue;
+            cursor: pointer;
+            &:hover, &.active
+            {
+                background-color: lightblue;
+            }
+        }
+    }
+    
+}

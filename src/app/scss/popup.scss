@@ -1,0 +1,18 @@
+.confirm-popup-content
+{
+    .popup-body
+    {
+        .popup-footer-btns
+        {
+            .custom-btn 
+            {
+                border: 1px solid lightblue;
+                cursor: pointer;
+                &:hover
+                {
+                    border-color: #4dc5ec;
+                }
+            }
+        }
+    }
+}
